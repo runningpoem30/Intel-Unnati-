@@ -1,0 +1,3 @@
+The sshleifer/distilbart-cnn-6-6 model, part of the DistilBART family, is a variant of BART (Bidirectional and Auto-Regressive Transformers) that is distilled for efficiency while maintaining strong performance in sequence-to-sequence tasks, such as text generation and summarization. 
+https://huggingface.co/sshleifer/distilbart-cnn-6-6 
+
