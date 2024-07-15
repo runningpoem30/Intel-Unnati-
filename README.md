@@ -6,7 +6,7 @@
 
 ### Project Overview
 
-This project focuses on performing inference on a CPU and fine-tuning a large language model (LLM) to create a custom chatbot. The primary goal is to leverage the capabilities of the sshleifer/distilbart-cnn-6-6 model to handle sequence-to-sequence tasks efficiently while ensuring robust performance in text generation and summarization.
+This project focuses on performing inference on a CPU and fine-tuning a large language model (LLM) to create a custom chatbot. The primary goal is to leverage the capabilities of the sshleifer/distilbart-cnn-6-6 model to handle sequence-to-sequence tasks efficiently while ensuring robust performance in summarization.
 
 ---
 
@@ -50,6 +50,11 @@ Some non-default generation parameters are set in the model config. These should
 After fine-tuning, the model is evaluated based on its ability to generate accurate and concise summaries of dialogues. The performance is measured using standard metrics for summarization tasks, ensuring that the chatbot can effectively understand and respond to informal conversational text. Note that larger datasets often result in lower validation losses because the model has more diverse examples to learn from, whereas smaller datasets can lead to higher validation losses due to the model's struggle to generalize well.
 
 ---
+
+### Few Outputs :
+<img width="1239" alt="image" src="https://github.com/user-attachments/assets/9940649d-eae2-4594-97f5-7b77a476ea34">
+
+
 
 ### Conclusion
 
