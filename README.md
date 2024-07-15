@@ -32,33 +32,6 @@ The method of fine-tuning used in this project is referred to as sequence-to-seq
 
 ---
 
-### How to Run the Project
-
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/your-repo/project-name.git
-   cd project-name
-   ```
-
-2. **Install Dependencies**:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. **Prepare the Dataset**:
-   Ensure you have access to the samsum dataset and place it in the appropriate directory as specified in the code.
-
-4. **Fine-Tune the Model**:
-   ```sh
-   python fine_tune.py
-   ```
-
-5. **Run Inference on CPU**:
-   ```sh
-   python inference.py
-   ```
-
----
 
 ### Warnings and Considerations
 
@@ -98,7 +71,16 @@ The Tensor Titans team has successfully implemented a sequence-to-sequence fine-
 
 ---
 
-For any questions or further information, please contact the Tensor Titans team at [your-email@example.com].
+For any questions or further information, please contact the Tensor Titans team at :
+Arya Anand Pathak - 1nt23ec022.arya@nmit.ac.in
+L Tejas - 1nt23ec072.tejas@nmit.ac.in
+Praveen Raj Srivastav - 1nt23ec110.praveen@nmit.ac.in
+
+Github Accounts : 
+Arya Anand Pathak - https://github.com/runningpoem30
+L Tejas - https://github.com/tejas-54 
+Praveen Raj Srivastav - https://github.com/praveen24sriv 
+
 
 ---
 
