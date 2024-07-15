@@ -1,6 +1,3 @@
-# Intel-Unnati
-Team - Tensor Titans 
-Project - Introduction to GenAI and Simple LLM Inference on CPU and Finetuning of LLM Model to Create a Custom Chatbot 
 # Project README: Inference on CPU and Fine-Tuning of LLM Model to Create a Custom Chatbot
 
 ## Team Name: Tensor Titans
@@ -15,7 +12,7 @@ This project focuses on performing inference on a CPU and fine-tuning a large la
 
 ### Model Details
 
-Model Used: [sshleifer/distilbart-cnn-6-6](https://huggingface.co/sshleifer/distilbart-cnn-6-6)**
+**Model Used: [sshleifer/distilbart-cnn-6-6](https://huggingface.co/sshleifer/distilbart-cnn-6-6)**
 
 The sshleifer/distilbart-cnn-6-6 model, part of the DistilBART family, is a variant of BART (Bidirectional and Auto-Regressive Transformers). This model has been distilled to enhance efficiency, making it lightweight and faster, while maintaining strong performance in sequence-to-sequence tasks such as text generation and summarization. The DistilBART model is particularly well-suited for applications requiring quick and accurate text processing.
 
