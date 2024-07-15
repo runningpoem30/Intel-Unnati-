@@ -1,4 +1,4 @@
-# Project: Inference on CPU and Fine-Tuning of LLM Model to Create a Custom Chatbot
+# Project README: Inference on CPU and Fine-Tuning of LLM Model to Create a Custom Chatbot
 
 ## Team Name: Tensor Titans
 
@@ -60,9 +60,35 @@ The method of fine-tuning used in this project is referred to as sequence-to-seq
 
 ---
 
+### Warnings and Considerations
+
+**UserWarning: `as_target_tokenizer` is deprecated and will be removed in v5 of Transformers.**  
+You can tokenize your labels by using the argument `text_target` of the regular `__call__` method (either in the same call as your input texts if you use the same keyword arguments, or in a separate call).
+
+**FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers.**  
+Use `eval_strategy` instead.
+
+**Generation Parameters Warning:**  
+Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file ([more details here](https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model)). This warning will be raised to an exception in v4.41.  
+Non-default generation parameters:  
+```python
+{
+  'max_length': 142,
+  'min_length': 56,
+  'early_stopping': True,
+  'num_beams': 4,
+  'length_penalty': 2.0,
+  'no_repeat_ngram_size': 3,
+  'forced_bos_token_id': 0,
+  'forced_eos_token_id': 2
+}
+```
+
+---
+
 ### Results and Evaluation
 
-After fine-tuning, the model is evaluated based on its ability to generate accurate and concise summaries of dialogues. The performance is measured using standard metrics for summarization tasks, ensuring that the chatbot can effectively understand and respond to informal conversational text.
+After fine-tuning, the model is evaluated based on its ability to generate accurate and concise summaries of dialogues. The performance is measured using standard metrics for summarization tasks, ensuring that the chatbot can effectively understand and respond to informal conversational text. Note that larger datasets often result in lower validation losses because the model has more diverse examples to learn from, whereas smaller datasets can lead to higher validation losses due to the model's struggle to generalize well.
 
 ---
 
@@ -77,4 +103,3 @@ For any questions or further information, please contact the Tensor Titans team 
 ---
 
 Thank you for exploring our project!
-
