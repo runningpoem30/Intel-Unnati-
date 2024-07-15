@@ -1,4 +1,4 @@
-# Project README: Inference on CPU and Fine-Tuning of LLM Model to Create a Custom Chatbot
+# Project: Inference on CPU and Fine-Tuning of LLM Model to Create a Custom Chatbot
 
 ## Team Name: Tensor Titans
 
