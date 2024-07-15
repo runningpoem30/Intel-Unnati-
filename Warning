@@ -1,0 +1,9 @@
+UserWarning: ⁠ as_target_tokenizer ⁠ is deprecated and will be removed in v5 of Transformers. You can tokenize your labels by using the argument ⁠ text_target ⁠ of the regular ⁠ __call__ ⁠ method (either in the same call as your input texts if you use the same keyword arguments, or in a separate call
+FutureWarning: ⁠ evaluation_strategy ⁠ is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use ⁠ eval_strategy ⁠ instead
+
+Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+Non-default generation parameters: {'max_length': 142, 'min_length': 56, 'early_stopping': True, 'num_beams': 4, 'length_penalty': 2.0, 'no_repeat_ngram_size': 3, 'forced_bos_token_id': 0, 'forced_eos_token_id': 2}
+Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+Non-default generation parameters: {'max_length': 142, 'min_length': 56, 'early_stopping': True, 'num_beams': 4, 'length_penalty': 2.0, 'no_repeat_ngram_size': 3, 'forced_bos_token_id': 0, 'forced_eos_token_id': 2}
+
+Larger datasets often result in lower validation losses because the model has more diverse examples to learn from. Smaller datasets can lead to higher validation losses because the model may struggle to generalize well.
