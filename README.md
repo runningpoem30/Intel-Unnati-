@@ -43,21 +43,7 @@ Use `eval_strategy` instead.
 
 **Generation Parameters Warning:**  
 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file ([more details here](https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model)). This warning will be raised to an exception in v4.41.  
-Non-default generation parameters:  
-```python
-{
-  'max_length': 142,
-  'min_length': 56,
-  'early_stopping': True,
-  'num_beams': 4,
-  'length_penalty': 2.0,
-  'no_repeat_ngram_size': 3,
-  'forced_bos_token_id': 0,
-  'forced_eos_token_id': 2
-}
-```
 
----
 
 ### Results and Evaluation
 
