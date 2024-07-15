@@ -53,6 +53,8 @@ After fine-tuning, the model is evaluated based on its ability to generate accur
 
 ### Few Outputs :
 <img width="1239" alt="image" src="https://github.com/user-attachments/assets/9940649d-eae2-4594-97f5-7b77a476ea34">
+<img width="1275" alt="image" src="https://github.com/user-attachments/assets/b80e9d08-6c5d-4a47-8983-edeee076f305">
+
 
 
 
